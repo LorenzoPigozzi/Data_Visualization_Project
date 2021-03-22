@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="68d06da1f15f4c59becfe853ea22e2ac" class="chart-container" style="width:2700px; height:1500px;"></div>
+    <script>
+        var chart_68d06da1f15f4c59becfe853ea22e2ac = echarts.init(
+            document.getElementById('68d06da1f15f4c59becfe853ea22e2ac'), 'white', {renderer: 'canvas'});
+        var option_68d06da1f15f4c59becfe853ea22e2ac = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#800026",
+        "#990026",
+        "#BF0125",
+        "#BF0125",
+        "#D7121F",
+        "#D7121F",
+        "#D7121F",
+        "#EE3022",
+        "#F43D25",
+        "#F43D25",
+        "#FC522B",
+        "#FC6731",
+        "#FC6731",
+        "#FC6731",
+        "#FD8A3B",
+        "FFFCC5",
+        "FEE186",
+        "FEA948",
+        "FD8038",
+        "FC522B"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "BG",
+                    "value": 3.7
+                },
+                {
+                    "name": "BA",
+                    "value": 3.6
+                },
+                {
+                    "name": "IT",
+                    "value": 3.5
+                },
+                {
+                    "name": "GR",
+                    "value": 3.5
+                },
+                {
+                    "name": "BE",
+                    "value": 3.0
+                },
+                {
+                    "name": "MK",
+                    "value": 3.0
+                },
+                {
+                    "name": "HU",
+                    "value": 3.0
+                },
+                {
+                    "name": "GB",
+                    "value": 2.9
+                },
+                {
+                    "name": "ES",
+                    "value": 2.6
+                },
+                {
+                    "name": "XK",
+                    "value": 2.6
+                },
+                {
+                    "name": "RO",
+                    "value": 2.5
+                },
+                {
+                    "name": "IE",
+                    "value": 2.4
+                },
+                {
+                    "name": "SM",
+                    "value": 2.4
+                },
+                {
+                    "name": "FR",
+                    "value": 2.4
+                },
+                {
+                    "name": "SI",
+                    "value": 2.2
+                }
+            ],
+            "radius": [
+                "20%",
+                "95%"
+            ],
+            "center": [
+                "30%",
+                "60%"
+            ],
+            "roseType": "area",
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 30,
+                "formatter": "{b} - {c}%"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "BG",
+                "BA",
+                "IT",
+                "GR",
+                "BE",
+                "MK",
+                "HU",
+                "GB",
+                "ES",
+                "XK",
+                "RO",
+                "IE",
+                "SM",
+                "FR",
+                "SI"
+            ],
+            "selected": {},
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Covid-19 Death Rate in Europe",
+            "subtext": "Nightingale Rose Chart",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "restore": {
+                "show": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "show": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "show": true,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "xAxisIndex": false,
+                "yAxisIndex": false,
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "show": true,
+                "type": [
+                    "line",
+                    "bar",
+                    "stack",
+                    "tiled"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            },
+            "brush": {
+                "icon": {},
+                "title": {
+                    "rect": "\u77e9\u5f62\u9009\u62e9",
+                    "polygon": "\u5708\u9009",
+                    "lineX": "\u6a2a\u5411\u9009\u62e9",
+                    "lineY": "\u7eb5\u5411\u9009\u62e9",
+                    "keep": "\u4fdd\u6301\u9009\u62e9",
+                    "clear": "\u6e05\u9664\u9009\u62e9"
+                }
+            }
+        }
+    }
+};
+        chart_68d06da1f15f4c59becfe853ea22e2ac.setOption(option_68d06da1f15f4c59becfe853ea22e2ac);
+    </script>
+</body>
+</html>
